@@ -1,0 +1,64 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.input-field{
+    display: flex;
+}
+#search{
+    flex: 1;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 15px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.meals{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 25px;
+}
+body{
+    background-color: #C6D57E;
+}
+a{
+    color: #D57E7E;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive; ;
+}
+
+a:hover{
+    color: red;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    color:#D57E7E;
+    font-size: 45px;
+}
+h2{
+    font-family: 'Ballet', cursive;;
+    font-size: 70px;
+    color:#D57E7E ;
+}
+@media all and (max-width:800px){
+    h1{
+        font-size: 35px;
+    }
+}
+@media all and (max-width:500px){
+    img{
+        width: 300px;
+    }
+    h1, a{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
+
